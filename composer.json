@@ -1,5 +1,5 @@
 {
-  "name": "maxdaniel98/ISO4217",
+  "name": "maxdaniel98/iso4217",
   "description": "An ISO4217 helper class",
   "license": "MIT",
   "keywords": ["iso4217","currency"],
@@ -15,7 +15,7 @@
 
   "autoload": {
     "psr-4": {
-      "maxdaniel98\\ISO4217\\": "src"
+      "maxdaniel98\\iso4217\\": "src"
     }
   },
   "minimum-stability": "dev"

@@ -1,10 +1,10 @@
 <?php
-namespace maxdaniel98\ISO4217;
+namespace maxdaniel98\iso4217;
 
 /**
  * An ISO4217 helper class
  *
- * @package ISO4217
+ * @package iso4217
  * @author Max van den Bosch
  */
 class ISO4217{
