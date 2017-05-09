@@ -1,0 +1,22 @@
+{
+  "name": "maxdaniel98/ISO4217",
+  "description": "An ISO4217 helper class",
+  "license": "MIT",
+  "keywords": ["iso4217","currency"],
+  "authors": [
+    {
+      "name": "Max van den Bosch",
+      "email": "maxdaniel98@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "maxdaniel98\\ISO4217\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
