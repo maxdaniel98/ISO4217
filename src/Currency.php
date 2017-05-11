@@ -13,6 +13,12 @@ namespace maxdaniel98\iso4217;
  *
  * @package iso4217
  * @author Max van den Bosch
+ *
+ * @property string $ISO4217
+ * @property int $currency_numeric
+ * @property string $currency_name
+ * @property string $symbol
+ * @property string $subunit
  */
 class Currency
 {
@@ -29,6 +35,11 @@ class Currency
         $this->currency_name=$options['currency_name'];
         $this->symbol=$options['symbol'];
         $this->subunit=$options['subunit'];
+    }
+
+    public function __toString()
+    {
+        return $this->ISO4217;
     }
 
 }
